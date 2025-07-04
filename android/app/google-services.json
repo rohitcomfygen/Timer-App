@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "710129690855",
+    "project_id": "telgros-fa1b3",
+    "storage_bucket": "telgros-fa1b3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710129690855:android:edbabe1f9ec29bd5175a42",
+        "android_client_info": {
+          "package_name": "com.app.telgros"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710129690855-pvd0njiol5aqhlkhctp0fp7fr4cjjang.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.telgros",
+            "certificate_hash": "b9f99fcb4e27020c2bc0ce5d7599b64d6f96eb2f"
+          }
+        },
+        {
+          "client_id": "710129690855-6jgihjot6u64odtldbdjnt31sa8ssg2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQlV2bwXrCPAByEJpTUfG5RiUJoD0iWFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710129690855-6jgihjot6u64odtldbdjnt31sa8ssg2n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "710129690855-nph00cuba1jbrcoe4bn1rj1n0mg9uslq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.telgros.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
