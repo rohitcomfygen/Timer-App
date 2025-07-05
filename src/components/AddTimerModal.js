@@ -90,6 +90,8 @@ const AddTimerModal = ({ isVisible, onClose, onSave, existingCategories }) => {
             placeholder="Timer Name (e.g., Workout Timer)"
             value={name}
             onChangeText={setName}
+            placeholderTextColor={'#333'}
+
             maxLength={50} // Limit name length
           />
 
@@ -100,6 +102,7 @@ const AddTimerModal = ({ isVisible, onClose, onSave, existingCategories }) => {
             keyboardType="numeric" // Only allows numeric input
             value={duration}
             onChangeText={setDuration}
+            placeholderTextColor={'#333'}
             returnKeyType="done"
           />
 
@@ -132,6 +135,8 @@ const AddTimerModal = ({ isVisible, onClose, onSave, existingCategories }) => {
               placeholder="Enter New Category Name"
               value={newCategory}
               onChangeText={setNewCategory}
+              placeholderTextColor={'#333'}
+
               maxLength={30}
             />
           )}
@@ -185,7 +190,7 @@ const styles = StyleSheet.create({
     marginBottom: 15,
     borderRadius: 8,
     fontSize: 16,
-    color: '#333',
+    color: '#000',
   },
   label: {
     alignSelf: 'flex-start',
@@ -207,6 +212,7 @@ const styles = StyleSheet.create({
   picker: {
     width: '100%',
     height: 50, // Standard height for pickers
+    color:'#000'
   },
   buttonContainer: {
     flexDirection: 'row',

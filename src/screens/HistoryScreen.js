@@ -51,10 +51,10 @@ const HistoryScreen = () => {
     }
 
     const hasPermission = await requestWritePermission();
-    if (!hasPermission) {
-      Alert.alert("Permission Denied", "Cannot export history without storage permission. Please grant it in app settings.");
-      return;
-    }
+    // if (!hasPermission) {
+    //   Alert.alert("Permission Denied", "Cannot export history without storage permission. Please grant it in app settings.");
+    //   return;
+    // }
 
     try {
       const jsonString = JSON.stringify(history, null, 2); // Pretty print JSON
